@@ -1,0 +1,10 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+include/
+Include/
+lib/
+Lib/
+pyvenv.cfg
+Scripts/
+test.py
+book_api.json
+data/

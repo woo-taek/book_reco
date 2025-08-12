@@ -1,0 +1,190 @@
+{
+    "response": {
+        "request": {
+            "isbn13": "9791198682550",
+            "loaninfoYN": "Y"
+        },
+        "detail": {
+            "book": {
+                "no": "1",
+                "bookname": "너에게 들려주는 단단한 말",
+                "authors": "김종원 지음",
+                "publisher": "퍼스트펭귄",
+                "publication_year": "2024",
+                "publication_date": "2024",
+                "isbn": "1198682558",
+                "isbn13": "9791198682550",
+                "addition_symbol": "43190",
+                "vol": null,
+                "class_no": "199",
+                "class_nm": "철학 > 윤리학, 도덕철학 > 도덕훈, 교훈",
+                "description": "청소년을 위한 인생철학 에세이다. ‘나’라는 존재와 친구와의 관계, 공부와 성적, 꿈과 진로 등에 관한 고민이 커지는 청소년기는 인생이란 여정에서 어둡고 막막한 터널을 처음으로 마주하는 시기다. 어떤 생각을 키우고, 어떤 마음을 갖느냐에 따라 앞으로 펼쳐질 삶의 모양이 달라질 수도 있기에 저자는 단어 하나, 문장 하나에도 온 마음을 담았다.",
+                "bookImageURL": "https://image.aladin.co.kr/product/34233/47/cover200/k212931234_1.jpg"
+            }
+        },
+        "loanInfo": {
+            "Total": {
+                "ranking": "201",
+                "name": "전체",
+                "loanCnt": "4009"
+            },
+            "regionResult": {
+                "region": [
+                    {
+                        "ranking": "316",
+                        "name": "서울",
+                        "loanCnt": "653"
+                    },
+                    {
+                        "ranking": "353",
+                        "name": "부산",
+                        "loanCnt": "197"
+                    },
+                    {
+                        "ranking": "309",
+                        "name": "대구",
+                        "loanCnt": "210"
+                    },
+                    {
+                        "ranking": "262",
+                        "name": "인천",
+                        "loanCnt": "125"
+                    },
+                    {
+                        "ranking": "371",
+                        "name": "광주",
+                        "loanCnt": "100"
+                    },
+                    {
+                        "ranking": "621",
+                        "name": "대전",
+                        "loanCnt": "74"
+                    },
+                    {
+                        "ranking": "2",
+                        "name": "울산",
+                        "loanCnt": "637"
+                    },
+                    {
+                        "ranking": "290",
+                        "name": "세종",
+                        "loanCnt": "84"
+                    },
+                    {
+                        "ranking": "498",
+                        "name": "경기",
+                        "loanCnt": "879"
+                    },
+                    {
+                        "ranking": "382",
+                        "name": "강원",
+                        "loanCnt": "56"
+                    },
+                    {
+                        "ranking": "238",
+                        "name": "충북",
+                        "loanCnt": "95"
+                    },
+                    {
+                        "ranking": "342",
+                        "name": "충남",
+                        "loanCnt": "146"
+                    },
+                    {
+                        "ranking": "109",
+                        "name": "전북",
+                        "loanCnt": "158"
+                    },
+                    {
+                        "ranking": "345",
+                        "name": "전남",
+                        "loanCnt": "119"
+                    },
+                    {
+                        "ranking": "174",
+                        "name": "경북",
+                        "loanCnt": "220"
+                    },
+                    {
+                        "ranking": "349",
+                        "name": "경남",
+                        "loanCnt": "219"
+                    },
+                    {
+                        "ranking": "664",
+                        "name": "제주",
+                        "loanCnt": "37"
+                    }
+                ]
+            },
+            "ageResult": {
+                "age": [
+                    {
+                        "ranking": "212",
+                        "name": "청소년(14~19)",
+                        "loanCnt": "154"
+                    },
+                    {
+                        "ranking": "753",
+                        "name": "30대",
+                        "loanCnt": "363"
+                    },
+                    {
+                        "ranking": "48",
+                        "name": "40대",
+                        "loanCnt": "2047"
+                    },
+                    {
+                        "ranking": "175",
+                        "name": "50대",
+                        "loanCnt": "400"
+                    }
+                ]
+            },
+            "genderResult": {
+                "gender": [
+                    {
+                        "ranking": "152",
+                        "name": "청소년(남)",
+                        "loanCnt": "56"
+                    },
+                    {
+                        "ranking": "288",
+                        "name": "청소년(여)",
+                        "loanCnt": "89"
+                    },
+                    {
+                        "ranking": "641",
+                        "name": "30대(여)",
+                        "loanCnt": "319"
+                    },
+                    {
+                        "ranking": "678",
+                        "name": "40대(남)",
+                        "loanCnt": "316"
+                    },
+                    {
+                        "ranking": "20",
+                        "name": "40대(여)",
+                        "loanCnt": "1698"
+                    },
+                    {
+                        "ranking": "338",
+                        "name": "50대(남)",
+                        "loanCnt": "106"
+                    },
+                    {
+                        "ranking": "147",
+                        "name": "50대(여)",
+                        "loanCnt": "286"
+                    },
+                    {
+                        "ranking": "761",
+                        "name": "60대이상(여)",
+                        "loanCnt": "58"
+                    }
+                ]
+            }
+        }
+    }
+}
