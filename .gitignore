@@ -3,8 +3,11 @@ include/
 Include/
 lib/
 Lib/
+lib64/
 pyvenv.cfg
 Scripts/
 test.py
 book_api.json
 data/
+__pycache__
+bin/

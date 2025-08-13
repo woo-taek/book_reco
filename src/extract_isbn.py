@@ -3,7 +3,7 @@ import pandas as pd
 
 # 서울도서관 장서 대출목록 (2025년 07월) 파일을 seoul_library_202507로 이름 변경
 df = pd.read_csv(
-    "data/seoul_library_202507.csv", 
+    "./data/seoul_library_202507.csv", 
     encoding="cp949",
     dtype={"ISBN": str}
 )
