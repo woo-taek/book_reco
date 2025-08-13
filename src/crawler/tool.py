@@ -2,6 +2,10 @@ def get_book_data(data: dict) -> dict:
     dict_book = {}
 
     # 1. book
+    if 'error' in data['response'].keys():
+        print(data['response']['error'])
+        return
+
     book = data["response"]["book"]
     dict_book["isbn13"] = book["isbn13"]
     dict_book["bookname"] = book["bookname"]

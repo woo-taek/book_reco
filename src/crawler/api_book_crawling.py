@@ -74,7 +74,8 @@ while limit_api > 0:
         get_response.raise_for_status()     # HTTP 상태 코드(200, 404, 500 등) 확인
         data = xmltodict.parse(get_response.content)
         dict_book = get_book_data(data)
-        list_book_data.append(dict_book)
+        if dict_book:
+            list_book_data.append(dict_book)
         time.sleep(0.5)
 
     except requests.exceptions.RequestException as e:
