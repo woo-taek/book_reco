@@ -72,8 +72,14 @@ while limit_api > 0:
         limit_api -= 1
         get_response = requests.get(url, params=params)
         get_response.raise_for_status()     # HTTP 상태 코드(200, 404, 500 등) 확인
-        data = xmltodict.parse(get_response.content)
-        dict_book = get_book_data(data)
+
+        dict_book = {}
+        if get_response.content.strip():
+            data = xmltodict.parse(get_response.content)
+            dict_book = get_book_data(data)
+        else:
+            print(f"{isbn13}에 대한 응답이 비어있습니다.")    
+
         if dict_book:
             list_book_data.append(dict_book)
         time.sleep(0.5)
